@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 const Boton = (props) => {
     const { text } = props
     return (
-        <Button variant="dark">{text}</Button>
+        <Button variant="dark" type="submit">{text}</Button>
     )
 }
 
